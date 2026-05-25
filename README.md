@@ -34,6 +34,7 @@ Stores hash records in a JSON file (file_hashes.json) for future comparisons.
 
 Provides a clear summary report of changes.
 
+
 🛠️ How It Works
 Hashing: Each file’s SHA‑256 hash is computed.
 
@@ -45,9 +46,11 @@ Reporting: Prints a summary of modified, added, or deleted files.
 
 Updating: Saves the latest hashes for the next run.
 
+
 📦 Requirements
 Python 3.7+
 Standard libraries (os, hashlib, json, pathlib) — no external dependencies.
+
 
 🔒 Use Cases
 Detect unauthorized file changes.
@@ -55,6 +58,7 @@ Detect unauthorized file changes.
 Monitor project directories for accidental edits.
 
 Track integrity of configuration files or logs.
+
 
 ⚠️ Notes
 Large directories may take longer to scan.
@@ -72,6 +76,9 @@ Calculates and stores the original hash values in a secure manner.
 Periodically (or manually) recalculates hash values and compares them with the originals.
 
 Notifies the user if any discrepancy is found, signaling a potential unauthorized change.
+
+
+DISCRIPTION :
 
 This task promotes the understanding of fundamental cybersecurity concepts such as data integrity, hashing algorithms, and change detection. It also involves basic file handling, user interaction via the command line or GUI, and efficient data comparison methods. The script can be extended to monitor folders, generate logs, or send alerts via email—opening up many creative possibilities for enhancement.
 
